@@ -1,0 +1,313 @@
+/*表头*/
+.member-right .title{
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+/*左侧*/
+.member-right .title .left{
+    width: 400px;
+    height: 160px;
+    background-color: #cc5252;
+    text-align: center;
+}
+.member-right .title .left .p1{
+    margin-top: 50px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.member-right .title .left .p2{
+    margin-top: 5px;
+    font-size: 24px;
+    color: #fff;
+}
+/*右侧积分信息*/
+/*第一部分*/
+.member-right .right .right-a{
+    width: 528px;
+    height: 80px;
+    border-bottom: 1px solid #eee;
+}
+.member-right .right .right-a .text1{
+    margin-left: 30px;
+}
+.member-right .right .right-a .text1 span{
+    line-height: 72px;
+    font-size: 14px;
+    margin-right: 20px;
+    color: #333333;
+}
+.member-right .right .right-a .text1 .num{
+    color: #cc5252;
+    font-size: 24px;
+    line-height: 80px;
+}
+.member-right .right-a .text2 a{
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    color: #477db3;
+    margin-right: 30px;
+    outline: none;
+}
+/*第二部分*/
+.member-right .right-b{
+    position: relative;
+    width: 528px;
+    height: 78px;
+}
+.member-right .right-b .txt{
+    width: 95px;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 78px;
+    color: #333;
+}
+/*签到*/
+.member-right .right-b span{
+    display: inline-block;
+    margin-left: 20px;
+    color:#fff;
+    height: 24px;
+    line-height: 24px;
+    width: 84px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #cc5252;
+    border-radius: 12px;
+    margin-top: 26px;
+    cursor: pointer;
+    border: 1px solid #cc5252;
+}
+.member-right .right-b .icon-sign{
+    background-position: -462px -504px;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-top;
+}
+/*已签到*/
+.member-right .right-b .signed{
+    position: absolute;
+    color: #cc5252;
+    background-color: #fff;
+    top: 0px;
+    left: 125px;
+    display: none;
+}
+.member-right .right-b .icon-signed{
+    background-position: -436px -504px;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-top;
+}
+
+/*签到内容*/
+.member-right .content{
+    margin-top: 30px;
+    background-color: #f1f1f1;
+}
+.member-right .content .title span{
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #666;
+    margin-left: 10px;
+    margin-right: 68px;
+}
+/*列表 li*/
+.member-right .content .list{
+    border: 1px solid #eee;
+    border-bottom:none;
+    background-color: #fff;
+}
+.member-right .content .list li{
+    height: 76px;
+    border-bottom: 1px solid #eee;
+}
+.member-right .content .list li .left{
+    padding: 19px 0px 19px 10px;
+}
+.member-right .content .list li .left p{
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+}
+.member-right .content .list .right{
+    width: 160px;
+    line-height: 75px;
+    color: #cc5252;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-left: 1px solid #eee;
+}
+/*提示弹窗*/
+.layui-layer-dialog{
+    border-radius: 8px;
+}
+
+.layui-layer-dialog .layui-layer-content{
+    width: 228px;
+    height: 80px;
+    line-height: 80px!important;
+    text-align: center;
+}
+
+/*优惠券页面*/
+/*表头 添加优惠券*/
+.member-right .nav{
+    border-bottom: 1px solid #eee;
+}
+.member-right .nav .add span{
+    display: inline-block;
+    width: 90px;
+    height: 28px;
+    border: 1px solid #477db3;
+    border-radius: 14px;
+    line-height: 28px;
+    outline: none;
+    font-size: 14px;
+    color:#477db3;
+    text-align: center;
+    cursor: pointer;
+}
+.member-right .nav .add .icon-add{
+    background-position: -576px -167px;
+    height: 12px;
+    width: 12px;
+    vertical-align: baseline;
+}
+/*列表内容*/
+.member-right .tabcontent .content-list{
+    padding-top: 20px;
+}
+/*列表li*/
+.member-right .tabcontent .content-list li{
+    position: relative;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 271px;
+    height: 177px;
+    background: url(../img/order/couponbd.png);
+    overflow: hidden;
+}
+.member-right .tabcontent .content-list li a{
+    height: 177px;
+    width: 271px;
+    color: #fff;
+    display: inline-block;
+    outline: none;
+}
+.member-right .tabcontent .content-list li .title{
+    font-size: 30px;
+    padding: 8px 0px 12px 12px;
+    border: none;
+}
+.member-right .tabcontent .content-list li .title2{
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 12px;
+}
+.member-right .tabcontent .content-list li .title2 span{
+    display: inline-block;
+    width:48px;
+    height: 16px;
+    background-color: #f9f2e4;
+    color: #bfad73;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 2px;
+}
+.member-right .content-list li .title3{
+    margin-left: 12px;
+    margin-top: 5px;
+}
+/*有效期*/
+.member-right .content-list li .time{
+    width: 271px;
+    position:absolute;
+    bottom: 10px;
+    left: 0px;
+    font-size: 12px;
+    margin-left: 12px;
+}
+.member-right .content-list li .time span{
+    margin-right: 25px;
+}
+.member-right .content-list li .time .icon-details{
+    background-position: -22px -537px;
+    width: 16px;
+    height:16px;
+    vertical-align: bottom;
+}
+/*关闭按钮*/
+.member-right .content-list li .icon-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-position: -514px -504px;
+    height: 16px;
+    width: 16px;
+}
+/*添加券的弹框*/
+.shadow .information{
+    width: 500px;
+    height: 380px;
+    margin-top: -190px;
+    margin-left: -250px;
+    top: 50%;
+    left: 50%;
+}
+.shadow .information .data-block{
+    height: 180px;
+}
+.shadow .information .data-block .num{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+/*empty*/
+.member-right .tabcontent .empty{
+    display: none;
+    text-align: center;
+    padding: 180px;
+    color: #666;
+    font-size: 16px;
+}
+/*发票管理页面*/
+.member-right .tabcontent{
+    padding-top: 1px;
+}
+
+.member-right .tabcontent .invoice-empty{
+    text-align: center;
+    padding: 180px;
+    color: #666;
+    font-size: 16px;
+}
+.member-right .tabcontent .invoice{
+    display: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.member-right .tabcontent .invoice a{
+    display: inline-block;
+    width: 271px;
+    height: 130px;
+    border: 1px solid #477db3;
+    color: #477db3;
+    line-height: 130px;
+    text-align: center;
+    outline: none;
+}
+.member-right .tabcontent .invoice em{
+    font-size: 12px;
+    color: #477db3;
+    font-style: normal;
+    font-weight: 300;
+}
+.member-right .tabcontent .invoice .icon-add{
+    background-position: -328px -325px;
+    height: 14px;
+    width: 14px;
+    vertical-align: text-top;
+}

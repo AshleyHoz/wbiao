@@ -1,0 +1,161 @@
+/*nav  右侧 批量管理*/
+.member-right .nav .handel {
+    display: none;
+    margin-right: 0px;
+}
+
+.member-right .nav .handel span {
+    display: inline-block;
+    width: 80px;
+    height: 28px;
+    border: 1px solid #999;
+    border-radius: 14px;
+    line-height: 28px;
+    outline: none;
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*取消收藏*/
+.member-right .nav .cancel {
+    display: none;
+    cursor: pointer;
+}
+
+.member-right .nav .cancel span {
+    font-size: 12px;
+    color: #999;
+}
+
+.member-right .nav .cancel .icon-cancel {
+    background-position: -576px -277px;
+    width: 12px;
+    height: 12px;
+}
+
+.member-right .nav .cancel:hover span,i{
+    color: #cc5252;
+}
+
+
+/*全选*/
+.member-right .nav .all {
+    display: none;
+    cursor: pointer;
+}
+
+.member-right .nav .all span {
+    font-size: 12px;
+    color: #999;
+}
+
+.member-right .nav .all .icon-all {
+    background-position: -576px -211px;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+}
+.member-right .nav .all .icon-oup{
+    display: none;
+    background-position: -576px -321px;
+    width: 12px;
+    height: 12px;
+}
+
+/*收藏列表*/
+.member-right .collect {
+    margin-top: 40px;
+}
+
+.member-right .collect li {
+    margin-right: 25px;
+    width: 211px;
+    height: 275px;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+    padding-bottom: 11px;
+    position: relative;
+    text-align: center;
+    position: relative;
+}
+
+.member-right .collect li img {
+    padding: 6px 6px 16px 6px;
+}
+
+.member-right .collect li .info {
+    font-size: 12px;
+    color: #333333;
+    margin-left: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.member-right .collect li .price {
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 6px;
+}
+
+.member-right .collect li .price .price-a {
+    font-size: 16px;
+    color: #333333;
+}
+
+.member-right .collect li .price .price-b {
+    font-size: 12px;
+    color: #999;
+}
+
+/*li中的取消收藏*/
+.member-right .collect li .cancel {
+    padding: 3px;
+    color: #fff;
+    font-size: 12px;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    cursor: pointer;
+    display: none;
+}
+
+/*遮罩*/
+.member-right .collect li .mask {
+    width: 211px;
+    height: 286px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,.3);
+    z-index: 5;
+    text-align: right;
+    border: 1px solid #999;
+    display: none;
+}
+
+.member-right .collect li .mask .icon-opt1{
+    background-position: -48px -414px;
+    width: 38px;
+    height: 38px;
+    /*display: none;*/
+}
+.member-right .collect li .mask .icon-opt2{
+    background-position: -246px -239px;
+    width: 38px;
+    height: 38px;
+    display: none;
+}
+
+
+.member-right .cont-shop {
+    display: none;
+    text-align: center;
+    padding: 180px;
+    color: #666;
+    font-size: 14px;
+}
